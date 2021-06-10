@@ -1,0 +1,49 @@
+<!-- <div id="container">
+  <strong>{{ name }}</strong>
+  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+</div> -->
+
+<section id="section1">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center" size-sm="6" size-md="4">
+        <ion-text> It's been </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-xs="6" size-md="3">
+        <div class="counter__item">
+          <!-- <img src="../../assets/img/icon/ci-1.png" alt=""> -->
+          <h2 class="counter_num">{{days}}</h2>
+          <p>Days</p>
+        </div>
+      </ion-col>
+      <ion-col size-xs="6" size-md="3">
+        <div class="counter__item">
+          <h2 class="counter_num">{{hours}}</h2>
+          <p>Hours</p>
+        </div>
+      </ion-col>
+      <ion-col size-xs="6" size-md="3">
+        <div class="counter__item">
+          <!-- <img src="../../assets/img/icon/ci-3.png" alt=""> -->
+          <h2 class="counter_num">{{mins}}</h2>
+          <p>Minutes</p>
+        </div>
+      </ion-col>
+      <ion-col size-xs="6" size-md="3">
+        <div class="counter__item">
+          <!-- <img src="../../assets/img/icon/ci-4.png" alt=""> -->
+          <h2 class="counter_num">{{secs}}</h2>
+          <p>Seconds</p>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</section>
+
+<section id="container">
+  <ion-button (click)="onClick()" color="secondary"> {{name}}</ion-button>
+</section>
+<img src="../../assets/img/swaroop.jpg">
